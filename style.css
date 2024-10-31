@@ -11,6 +11,7 @@
   --tint-blue: #1c1e53;
   --accent: #eef4fa;
   --nav-item: #bbbbcb;
+  --section-margin: 128px;
 }
 .header {
   background-color: var(--tint-blue);
@@ -61,7 +62,7 @@
 /* hero area */
 .hero {
   justify-content: space-between;
-  margin-top: 126px;
+  margin: 128px;
 }
 
 .hero-left {
@@ -83,9 +84,15 @@
   background-color: transparent;
   border: none;
 }
+.card-holder {
+  grid-template-columns: auto auto;
+}
 .work-card h1 {
   font-size: 32px;
   color: var(--dark-blue);
   font-weight: 600px;
   margin-top: 16px;
+}
+.section-2 {
+  margin: var(--section-margin) 0px;
 }
