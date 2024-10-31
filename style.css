@@ -31,7 +31,7 @@
   margin-left: 48px;
   border: 1px solid #f4f6fc77;
   background-color: transparent;
-  color: var(--nav-item);
+  color: var(--white);
 }
 .contact-btn:hover {
   background-color: var(--white);
